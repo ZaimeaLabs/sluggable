@@ -34,7 +34,7 @@ class EloquentModel extends Model
      *
      * @return \ZaimeaLabs\Sluggable\SlugOptions
      */
-    public function newSlugOptions() : SlugOptions
+    public function newSlugOptions(): SlugOptions
     {
         return SlugOptions::create()
             ->generateSlugsFrom('name')
