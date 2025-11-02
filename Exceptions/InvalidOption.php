@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ZaimeaLabs\Sluggable\Exceptions;
+namespace Zaimea\Sluggable\Exceptions;
 
 use Exception;
 

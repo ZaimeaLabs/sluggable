@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ZaimeaLabs\Sluggable;
+namespace Zaimea\Sluggable;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-use ZaimeaLabs\Sluggable\Exceptions\InvalidOption;
+use Zaimea\Sluggable\Exceptions\InvalidOption;
 
 trait HasSlug
 {

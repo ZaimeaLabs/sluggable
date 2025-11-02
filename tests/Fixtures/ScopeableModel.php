@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Tests\Fixtures;
 
 use Illuminate\Database\Eloquent\Model;
-use ZaimeaLabs\Sluggable\HasSlug;
-use ZaimeaLabs\Sluggable\SlugOptions;
+use Zaimea\Sluggable\HasSlug;
+use Zaimea\Sluggable\SlugOptions;
 
 class ScopeableModel extends Model
 {

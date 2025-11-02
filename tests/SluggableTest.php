@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 use Tests\Fixtures\ModelSoftDeletes;
 use Tests\Fixtures\ScopeableModel;
 use Tests\Fixtures\SluggableModel;
-use ZaimeaLabs\Sluggable\SlugOptions;
+use Zaimea\Sluggable\SlugOptions;
 
 it('can save a slug when saving a model', function () {
     $model = SluggableModel::create(['name' => 'this is a save test']);

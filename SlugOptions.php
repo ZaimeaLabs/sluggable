@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ZaimeaLabs\Sluggable;
+namespace Zaimea\Sluggable;
 
 class SlugOptions
 {

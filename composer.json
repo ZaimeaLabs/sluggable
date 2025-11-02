@@ -1,12 +1,15 @@
 {
-    "name": "zaimealabs/sluggable",
+    "name": "zaimea/sluggable",
     "license": "MIT",
     "homepage": "https://zaimea.com",
-    "description": "The ZaimeaLabs Sluggable package.",
+    "description": "Sluggable is a lightweight and flexible Laravel package that provides automatic, customizable slug generation for your Eloquent models. Using the HasSlug trait, your models gain the ability to generate SEO-friendly slugs from one or more fields, prevent duplicates, customize separators, control update behavior, and more.",
     "keywords": [
         "laravel",
         "sluggable",
-        "zaimealabs"
+        "zaimea",
+        "zaimealabs",
+        "slug",
+        "eloquent"
     ],
     "authors": [
         {
@@ -21,11 +24,12 @@
     },
     "require-dev": {
         "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpstan/phpstan": "^1.12.23",
         "pestphp/pest": "^2.0|^3.0"
     },
     "autoload": {
         "psr-4": {
-            "ZaimeaLabs\\Sluggable\\": ""
+            "Zaimea\\Sluggable\\": ""
         }
     },
     "autoload-dev": {

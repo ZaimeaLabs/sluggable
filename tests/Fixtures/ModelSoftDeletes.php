@@ -6,8 +6,8 @@ namespace Tests\Fixtures;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use ZaimeaLabs\Sluggable\HasSlug;
-use ZaimeaLabs\Sluggable\SlugOptions;
+use Zaimea\Sluggable\HasSlug;
+use Zaimea\Sluggable\SlugOptions;
 
 class ModelSoftDeletes extends Model
 {
