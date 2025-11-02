@@ -15,8 +15,13 @@ abstract class TestCase extends OrchestraTestCase
         $this->artisan('migrate:fresh', ['--path' => __DIR__ . '/Fixtures/database/migrations/create_tables.php', '--realpath' => true]);
     }
 
-    protected function defineEnvironment($app)
+    protected function getEnvironmentSetUp($app): void
     {
         $app['config']->set('database.default', 'testing');
+        $app['config']->set('database.connection.testing', [
+            'driver' => 'sqlite',
+            'database' => ':memory:',
+            'prefix' => '',
+        ]);
     }
 }
