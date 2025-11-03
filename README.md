@@ -39,4 +39,4 @@ For issues or suggestions: [GitHub Issues](https://github.com/zaimealabs/sluggab
 
 ## License
 
-Sluggable is open-sourced software licensed under the [MIT license](LICENSE.md).
+Sluggable is open-sourced software licensed under the [MIT license](LICENSE).
