@@ -1,7 +1,7 @@
 <p align="center"><img width="337" height="66" src="/.github/sluggable.svg" alt="Sluggable"></p>
 
 <p align="center">
-    <a href="https://github.com/zaimealabs/sluggable/actions"><img src="https://github.com/zaimealabs/sluggable/actions/workflows/sluggable-tests.yml/badge.svg" alt="Build Status"></a>
+    <a href="https://github.com/zaimealabs/sluggable/actions"><img src="https://github.com/zaimealabs/sluggable/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
     <a href="https://packagist.org/packages/zaimea/sluggable"><img src="https://img.shields.io/packagist/dt/zaimea/sluggable" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/zaimea/sluggable"><img src="https://img.shields.io/packagist/v/zaimea/sluggable" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/zaimea/sluggable"><img src="https://img.shields.io/packagist/l/zaimea/sluggable" alt="License"></a>

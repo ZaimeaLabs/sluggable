@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 170">
+    <!-- Text identical style to Sluggable -->
+    <text y="131"
+            font-family="Nunito Sans, sans-serif"
+            font-size="180"
+            font-weight="600"
+            fill="#344e83ff">
+        Laravel Sluggable
+    </text>
+</svg>
