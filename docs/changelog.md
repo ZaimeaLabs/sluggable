@@ -1,7 +1,7 @@
 ---
 title: Notable changes
 description: Notable changes
-github: https://github.com/zaimealabs/slugabble/edit/main/docs
+github: https://github.com/zaimealabs/sluggable/edit/main/docs/
 onThisArticle: false
 sidebar: true
 rightbar: false
